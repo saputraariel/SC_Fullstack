@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Blue Paradise Personal Use';
+  src: url('fonts/BlueParadisePersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}* 
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url('ELEMEN/BACKGROUND.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  position: relative;
+}
+
+.graphic {
+  position: absolute;
+  top: 34%;
+  left: 7%;
+  color: white;
+  font-size: 18rem;
+  font-family: "Bernard MT Condensed", sans-serif;
+  transform: scaleY(1.7);
+  display: inline-block;
+  font-weight: bold;
+}
+
+.desainer {
+  position: absolute;
+  top: -19%;
+  left: 12%;
+  color: rgb(0, 0, 0);
+  font-size: 10rem;
+  font-family: "Sunday Midnight", sans-serif;
+  transform: scaleY(1.3) rotate(-5deg);
+  display: inline-block;
+  font-weight: bold;
+}
+
+.name {
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  color: white;
+  font-size: 5rem;
+  font-family: 'Blue Paradise Personal Use', cursive;
+  font-weight: bold;
+}
+
+.deskripsi {
+  position: absolute;
+  top: 82%;
+  left: 7%;
+  color: rgb(185, 185, 185);
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  
+
+}
+
+/* .graphic-desainer {
+  position: absolute;
+  width: 55%;
+  left: 5%;
+  top: 22%;
+} */
+
+.profile {
+  position: absolute;
+  width: 50%;
+  left: 55%;
+  top: 10%;
+}
+
+.logo {
+  position: absolute;
+  width: 8%;
+  left: 0%;
+  top: -2%;
+}
+
+.bawahmenu {
+  position: absolute;
+  opacity: 0.4;
+  width: 10%;
+  left: 82%;
+  transform: scaleX(3.7);
+  top: -2%;
+}
+
+.bulat {
+  position: absolute;
+  width: 45%;
+  left: 58%;
+  top: 6%;
+  transform: scaleY(1.1);
+}
+
+
+.garis-bawah {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  bottom: 0%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.nav-container {
+  display: flex;
+  gap: 10px;
+  top: 3%;
+  left: 70%;
+  position: fixed;
+}
+
+.nav-button {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 26px;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.5;
+}

@@ -1,5 +1,6 @@
 # SC_Fullstack
 NAMA : Mohamad Ariel Saputra D Loi
+
 NIM : 2409116087
 
 WEB PORTOFOLIO
